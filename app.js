@@ -1,5 +1,5 @@
 // Deposit calculator
-let userName = prompt("Введіть ваше ім'я", "Петруха"); 
+let userName = prompt("Введіть ваше ім'я", "Іван"); 
 let userSum = prompt("Введіть суму вашего депозиту в грн", "10");
 let userTerm = prompt("Введіть термін дії депозиту у місяцях", "6");
 let userSumProfit= userSum * 0.2 * userTerm / 12;
